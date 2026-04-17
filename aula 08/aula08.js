@@ -3,10 +3,10 @@
 let idade = 14;
 
 //Caso seja verdadeiro
-if (idade >= 18) {
+if (idade === 18) {
     console.log("Você é maior de idade")
 }
 //caso contrário(ñ sendo verdadeiro)
 else {
-    console.log("Você é menor de idade");
+    console.log("Você é menor de idade, não vendemos bebidas para menores");
 };
